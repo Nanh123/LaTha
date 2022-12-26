@@ -4,6 +4,8 @@
   height: 150px;
   position: absolute;
   width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .PC_header header{
@@ -88,7 +90,11 @@
 }
 
 .MT_header{
+  height: 150px;
+}
 
+.MT_header .container{
+  padding: 5px;
 }
 
 .MT_header .acc .avatar img{
@@ -96,16 +102,58 @@
   height: auto;
 }
 
+.MT_header .setting{
+  position: relative;
+}
+
+.MT_header .set{
+  position: absolute;
+  right: 1%;
+}
+
+.MT_header .fa-cog,
+.MT_header .fa-bell,
+.MT_header p{
+  color: white;
+}
+
+.MT_header .cog{
+  margin-right: 0;
+}
+
+.MT_header .search{
+  background-color: white;
+  height: 50px;
+  border-radius: 10px;
+  position: relative;
+  margin: 0 5px;
+}
+
+.MT_header .search input{
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  font-size: 20px;
+  position: absolute;
+  top: 22%;
+  width: 90%;
+}
+
+.MT_header .search .fa-search{
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  color: black;
+  font-size: 16px;
+}
+
+.MT_header .search .fa-search:hover{
+  color: gray;
+}
+
 /* Mobile */
 @media only screen and (max-width: 46.1875em){
   .PC_header {
-     display: none;
-  }
-}
-
-/* Tablet */
-@media only screen and (min-width:46.1876em) and (max-wdith:63.9375em){
-  .PC_header{
      display: none;
   }
 }
