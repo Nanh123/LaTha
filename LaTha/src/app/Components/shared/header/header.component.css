@@ -1,4 +1,4 @@
-.bg_PC{
+.bg{
   background-color: #A1214A;
   z-index: -1;
   height: 150px;
@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-header{
+.PC_header header{
   height: 150px;
 }
 
@@ -85,6 +85,15 @@ header{
 
 .PC_header .search .fa-search:hover{
   color: gray;
+}
+
+.MT_header{
+
+}
+
+.MT_header .acc .avatar img{
+  width: 100%;
+  height: auto;
 }
 
 /* Mobile */
