@@ -1,4 +1,109 @@
-header{
-  height: 100px;
+.bg_PC{
   background-color: #A1214A;
+  z-index: -1;
+  height: 150px;
+  position: absolute;
+  width: 100%;
+}
+
+header{
+  height: 150px;
+}
+
+.PC_header .acc p{
+  top: 30%;
+}
+
+.PC_header .avatar{
+  margin: 10px 0;
+  height: 70px;
+}
+
+.PC_header .avatar img{
+  width: 100%;
+  height: 100%;
+}
+
+.PC_header .user{
+  margin: 10px 0;
+  height: 70px;
+}
+
+.PC_header .acc b,
+.PC_header .acc span,
+.PC_header .acc p{
+  color: white;
+}
+
+.PC_header .setting{
+  position: relative;
+  margin: 10px 0;
+}
+
+.PC_header .setting .set{
+  position: absolute;
+  left: 60%;
+  padding:0;
+}
+
+.PC_header .set .cog,
+.PC_header .set .bell{
+  height: 70px;
+  color: white;
+}
+
+.PC_header .setting .set .bell .fa-bell,
+.PC_header .setting .set .cog .fa-cog{
+  width: 70%;
+  height: auto;
+}
+
+.PC_header .search{
+  background-color: white;
+  border-radius: 10px;
+  height: 50px;
+  margin-top: 15%;
+  position: relative;
+}
+
+.PC_header .search input{
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  position: absolute;
+  width: 95%;
+  height: 50px;
+  font-size: 20px;
+}
+
+.PC_header .search .fa-search{
+  position: absolute;
+  top: 31%;
+  right: 1%;
+  color: black;
+}
+
+.PC_header .search .fa-search:hover{
+  color: gray;
+}
+
+/* Mobile */
+@media only screen and (max-width: 46.1875em){
+  .PC_header {
+     display: none;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width:46.1876em) and (max-wdith:63.9375em){
+  .PC_header{
+     display: none;
+  }
+}
+
+/* PC */
+@media only screen and (min-width:64em){
+  .MT_header{
+     display: none;
+  }
 }

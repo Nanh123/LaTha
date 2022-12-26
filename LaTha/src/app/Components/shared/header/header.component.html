@@ -1,6 +1,72 @@
-<header class="container">
-  <div class="row">
-    <div class="col acc"></div>
-    <div class="col setting"></div>
-  </div>
-</header>
+<div class="bg_PC"></div>
+<section class="PC_header">
+  <header class="container">
+    <div class="row">
+      <div class="col-3 acc">
+        <div class="row">
+          <div class="col-4 avatar">
+            <img [src]="user[0].pic" alt="">
+          </div>
+          <div class="col user">
+            <p>Xin chào,</p>
+            <p style="font-weight: bold; font-size: 20px;">{{user[0].name}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="search">
+          <input type="search" placeholder="Tìm kiếm">
+          <a href="">
+            <i class="fas fa-search"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-3 setting">
+        <div class="row set">
+          <div class="col bell">
+            <i class="fas fa-bell"></i>
+          </div>
+          <div class="col cog">
+            <i class="fas fa-cog"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</section>
+
+<section class="MT_header">
+  <header class="container">
+    <div class="row">
+      <div class="col-3 acc">
+        <div class="row">
+          <div class="col-4 avatar">
+            <img [src]="user[0].pic" alt="">
+          </div>
+          <div class="col user">
+            <p>Xin chào,</p>
+            <p style="font-weight: bold; font-size: 20px;">{{user[0].name}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="search">
+          <input type="search" placeholder="Tìm kiếm">
+          <a href="">
+            <i class="fas fa-search"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-3 setting">
+        <div class="row set">
+          <div class="col bell">
+            <i class="fas fa-bell"></i>
+          </div>
+          <div class="col cog">
+            <i class="fas fa-cog"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</section>
