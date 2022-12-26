@@ -25,9 +25,15 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/fontawesome-free-5.15.4-web/css/all.css",
+              "src/assets/fontawesome-free-5.15.4-web/css/fontawesome.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "src/assets/bootstrap-4.6.2-dist/js/bootstrap.js",
+              "src/assets/fontawesome-free-5.15.4-web/js/all.js"
+            ]
           },
           "configurations": {
             "production": {
