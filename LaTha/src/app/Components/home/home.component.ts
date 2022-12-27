@@ -57,5 +57,6 @@ export class HomeComponent {
       anh:'https://i.pinimg.com/564x/8e/1c/fa/8e1cfa3a51ba0c8e06705d99ae7e1215.jpg',
       p:'Ăn xong đi đâu',
     },
-  ]
+  ];
+  
 }
