@@ -126,7 +126,7 @@
   height: 50px;
   border-radius: 10px;
   position: relative;
-  margin: 0 5px;
+  margin: 5% 5px 0 5px;
 }
 
 .MT_header .search input{
