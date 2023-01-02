@@ -1,166 +1,59 @@
-.bg{
-  background-color: #A1214A;
-  z-index: -1;
-  height: 150px;
-  position: absolute;
-  width: 100%;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+.header{
+  height: 80px;
 }
 
-.PC_header header{
-  height: 150px;
+.header .logo,
+.header .col{
+  height: 80px;
 }
 
-.PC_header .acc p{
-  top: 30%;
+a:hover,
+a{
+  color: black;
+  text-decoration: none;
 }
 
-.PC_header .avatar{
-  margin: 10px 0;
-  height: 70px;
+a:hover p{
+  color: darkred;
 }
 
-.PC_header .avatar img{
-  width: 100%;
+.logo img{
   height: 100%;
+  width: auto;
 }
 
-.PC_header .user{
-  margin: 10px 0;
-  height: 70px;
-}
-
-.PC_header .acc b,
-.PC_header .acc span,
-.PC_header .acc p{
-  color: white;
-}
-
-.PC_header .setting{
-  position: relative;
-  margin: 10px 0;
-}
-
-.PC_header .setting .set{
-  position: absolute;
-  left: 60%;
-  padding:0;
-}
-
-.PC_header .set .cog,
-.PC_header .set .bell{
-  height: 70px;
-  color: white;
-}
-
-.PC_header .setting .set .bell .fa-bell,
-.PC_header .setting .set .cog .fa-cog{
-  width: 70%;
-  height: auto;
-}
-
-.PC_header .search{
-  background-color: white;
-  border-radius: 10px;
-  height: 50px;
-  margin-top: 15%;
+.header-left .text{
   position: relative;
 }
 
-.PC_header .search input{
-  border: 0;
-  outline: 0;
-  border-radius: 10px;
-  position: absolute;
-  width: 95%;
-  height: 50px;
-  font-size: 20px;
-}
-
-.PC_header .search .fa-search{
-  position: absolute;
-  top: 31%;
-  right: 1%;
-  color: black;
-}
-
-.PC_header .search .fa-search:hover{
-  color: gray;
-}
-
-.MT_header{
-  height: 150px;
-}
-
-.MT_header .container{
-  padding: 5px;
-}
-
-.MT_header .acc .avatar img{
-  width: 100%;
-  height: auto;
-}
-
-.MT_header .setting{
-  position: relative;
-}
-
-.MT_header .set{
-  position: absolute;
-  right: 1%;
-}
-
-.MT_header .fa-cog,
-.MT_header .fa-bell,
-.MT_header p{
-  color: white;
-}
-
-.MT_header .cog{
-  margin-right: 0;
-}
-
-.MT_header .search{
-  background-color: white;
-  height: 50px;
-  border-radius: 10px;
-  position: relative;
-  margin: 5% 5px 0 5px;
-}
-
-.MT_header .search input{
-  outline: 0;
-  border: 0;
-  border-radius: 10px;
-  font-size: 20px;
-  position: absolute;
-  top: 22%;
-  width: 90%;
-}
-
-.MT_header .search .fa-search{
+.header-left .text p{
   position: absolute;
   top: 30%;
-  right: 5%;
-  color: black;
-  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
 
-.MT_header .search .fa-search:hover{
-  color: gray;
+.header-right .btn{
+  position: relative;
 }
 
-/* Mobile */
-@media only screen and (max-width: 63.9em){
-  .PC_header {
-     display: none;
-  }
+.header-right .btn button{
+  position: absolute;
+  top: 17%;
 }
 
-/* PC */
-@media only screen and (min-width:64em){
-  .MT_header{
-     display: none;
-  }
+.header-right button{
+  border-radius: 30px;
+  height: 50px;
+  width: 180px;
+}
+
+.header-right button:hover{
+  background-color: #9b0000;
+  border-color: white;
+}
+
+.header-right button:hover i,
+.header-right button:hover h5{
+  color: white;
 }
