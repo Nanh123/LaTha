@@ -58,5 +58,5 @@ export class HomeComponent {
       p:'Ăn xong đi đâu',
     },
   ];
-  
+
 }
