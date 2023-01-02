@@ -37,7 +37,7 @@
 
 .search h1{
   position: absolute;
-  top: 40%;
+  top: 20%;
   left: 35%;
   z-index: 999;
   color: white;
@@ -45,8 +45,8 @@
 
 .search input{
   position: absolute;
-  top: 90%;
-  left: 10%;
+  top: 45%;
+  left: 12%;
   z-index: 999;
   border-radius: 10px;
   width: 60%;
@@ -58,8 +58,8 @@
 
 .search .src{
   position: absolute;
-  top: 90%;
-  right: 15%;
+  top: 45%;
+  right: 13%;
   border: 1px solid black;
   height: 70px;
   width: 200px;
