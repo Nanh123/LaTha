@@ -45,6 +45,7 @@ a:hover p{
 .header-right button{
    border-radius: 30px;
    height: 50px;
+   width: 180px;
 }
 
 .header-right button:hover{
@@ -53,7 +54,7 @@ a:hover p{
 }
 
 .header-right button:hover i,
-.header-right button:hover span{
+.header-right button:hover h5{
    color: white;
 }
 
@@ -66,7 +67,7 @@ a:hover p{
 
 .search h1{
    position: absolute;
-   top: 50%; 
+   top: 20%; 
    left: 35%;
    z-index: 999;
    color: white;
@@ -94,10 +95,6 @@ a:hover p{
    width: 200px;
    border-radius: 10px;
    background-color: #e03;
-}
-
-.src{
-   position: relative;
 }
 
 .search .src h5{
