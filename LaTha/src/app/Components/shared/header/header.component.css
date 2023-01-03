@@ -38,6 +38,32 @@ a:hover p{
   font-size: 20px;
 }
 
+.header-left .bg-search{
+  background-color: lightgray;
+  position: absolute;
+  top: 25%;
+  width: 230px;
+  height: 50px;
+  border-radius: 20px;
+}
+.header-left .search-header{
+  position: relative;
+}
+
+.header-left .search-header i{
+  position: absolute;
+  top: 22%;
+  left: 60%;
+}
+
+.header-left .search-header input{
+  position: absolute;
+  top: 15%;
+  background-color: lightgray;
+  border: 0;
+  outline: 0;
+}
+
 .header-right .btn{
   position: relative;
 }
