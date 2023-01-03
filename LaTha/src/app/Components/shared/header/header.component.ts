@@ -6,10 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  user=[
+  logo=[
     {
-      pic:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/220px-User_icon_2.svg.png",
-      name:"Chu Hoàng Minh",
+      logo:"https://drive.google.com/file/d/19byEMJo2crE6rJyN9kOJsFwQS5STnNd1/view?usp=sharing"
     },
   ]
 }

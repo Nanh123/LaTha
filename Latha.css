@@ -1,0 +1,105 @@
+.header{
+   height: 80px;
+}
+
+.header .logo,
+.header .col{
+   height: 80px;
+}
+
+a:hover,
+a{
+   color: black;
+   text-decoration: none;
+}
+
+a:hover p{
+   color: darkred;
+}
+
+.logo img{
+   height: 100%;
+   width: auto;
+}
+
+.header-left .text{
+   position: relative;
+}
+
+.header-left .text p{
+   position: absolute;
+   top: 30%;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+}
+
+.header-right .btn{
+   position: relative;
+}
+
+.header-right .btn button{
+   position: absolute;
+   top: 17%;
+}
+
+.header-right button{
+   border-radius: 30px;
+   height: 50px;
+   width: 180px;
+}
+
+.header-right button:hover{
+   background-color: #9b0000;  
+   border-color: white;
+}
+
+.header-right button:hover i,
+.header-right button:hover h5{
+   color: white;
+}
+
+/* Search */
+.search img{
+   width: 100%;
+   z-index: -1;
+   position: relative;
+}
+
+.search h1{
+   position: absolute;
+   top: 20%; 
+   left: 35%;
+   z-index: 999;
+   color: white;
+}
+
+.search input{
+   position: absolute;
+   top: 90%; 
+   left: 10%;
+   z-index: 999;
+   border-radius: 10px;
+   width: 60%;
+   height: 70px;
+   border: 0;
+   outline: none;
+   size: 100px;
+}
+
+.search .src{
+   position: absolute;
+   top: 90%;
+   right: 15%;
+   border: 1px solid black;
+   height: 70px;
+   width: 200px;
+   border-radius: 10px;
+   background-color: #e03;
+}
+
+.search .src h5{
+   position: absolute;
+   color: white;
+   line-height: 60px;
+   left: 20%;
+}

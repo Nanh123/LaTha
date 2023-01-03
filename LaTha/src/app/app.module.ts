@@ -7,6 +7,7 @@ import { MainLayoutComponent } from './Components/shared/main-layout/main-layout
 import { HeaderComponent } from './Components/shared/header/header.component';
 import { FooterComponent } from './Components/shared/footer/footer.component';
 import { HomeComponent } from './Components/home/home.component';
+import { SignInOutComponent } from './Components/sign-in-out/sign-in-out.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeComponent } from './Components/home/home.component';
     MainLayoutComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    SignInOutComponent
   ],
   imports: [
     BrowserModule,

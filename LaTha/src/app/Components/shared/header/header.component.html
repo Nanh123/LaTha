@@ -1,76 +1,55 @@
-<div class="bg"></div>
-<section class="PC_header">
-  <header class="container">
-    <div class="row">
-      <div class="col-3 acc">
-        <div class="row">
-          <div class="col-4 avatar">
-            <img [src]="user[0].pic" alt="">
-          </div>
-          <div class="col user">
-            <p>Xin chào,</p>
-            <p style="font-weight: bold; font-size: 20px;">{{user[0].name}}</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="search">
-          <input type="search" placeholder="Tìm kiếm">
-          <a href="">
-            <i class="fas fa-search"></i>
-          </a>
-        </div>
-      </div>
-      <div class="col-3 setting">
-        <div class="row set">
-          <div class="col bell">
-            <i class="fas fa-bell"></i>
-          </div>
-          <div class="col cog">
-            <i class="fas fa-cog"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-</section>
-
-<section class="MT_header">
-  <header class="container">
-    <div class="row">
-      <div class="col-9 acc">
-        <div class="row">
-          <div class="col-3 avatar">
-            <img [src]="user[0].pic" alt="">
-          </div>
-          <div class="col user">
-            <p>Xin chào,</p>
-            <p style="font-weight: bold; font-size: 20px;">{{user[0].name}}</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-3 setting">
-        <div class="row set">
-          <div class="col-1 bell">
-            <i class="fas fa-bell"></i>
-          </div>
-          <div class="col cog">
-            <i class="fas fa-cog"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+<section class="header">
   <div class="container">
-    <div class="row">
-      <div class="col input">
-        <div class="search">
-          <input type="search" placeholder="Tìm kiếm">
-          <a href="">
-            <i class="fas fa-search"></i>
-          </a>
+     <div class="row">
+        <div class="col-8 header-left">
+           <div class="row">
+              <div class="col-2 logo">
+                 <img src="../../../../assets/img/Latha-logo.png" alt="">
+              </div>
+              <div class="col-4 search-header">
+                <div class="bg-search">
+                  <div class="row">
+                    <div class="col-1">
+                      <i class="fas fa-search"></i>
+                    </div>
+                    <div class="col">
+                      <input type="search" placeholder="Tìm kiếm">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 text">
+                 <a href="">
+                    <p># Khám phá</p>
+                 </a>
+              </div>
+              <div class="col text">
+                 <a href="">
+                    <p>* Khuyến mãi</p>
+                 </a>
+              </div>
+           </div>
         </div>
-      </div>
-    </div>
+        <div class="col header-right pl-0">
+           <div class="row">
+              <div class="col btn pr-0">
+                 <button>
+                    <a href="">
+                       <h6><i class="fas fa-pen"> Viết review</i></h6>
+                    </a>
+                 </button>
+              </div>
+              <div class="col-4 btn sign pl-0">
+                 <button>
+                    <a href="">
+                       <h6>
+                          Đăng nhập
+                       </h6>
+                    </a>
+                 </button>
+              </div>
+           </div>
+        </div>
+     </div>
   </div>
 </section>
