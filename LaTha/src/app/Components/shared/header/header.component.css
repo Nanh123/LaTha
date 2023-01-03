@@ -45,12 +45,13 @@ a:hover p{
 .header-right .btn button{
   position: absolute;
   top: 17%;
+  right: 20px;
 }
 
 .header-right button{
   border-radius: 30px;
   height: 50px;
-  width: 180px;
+  width: 130px;
 }
 
 .header-right button:hover{
@@ -59,6 +60,6 @@ a:hover p{
 }
 
 .header-right button:hover i,
-.header-right button:hover h5{
+.header-right button:hover h6{
   color: white;
 }
