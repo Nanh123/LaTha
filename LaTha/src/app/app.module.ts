@@ -8,6 +8,7 @@ import { HeaderComponent } from './Components/shared/header/header.component';
 import { FooterComponent } from './Components/shared/footer/footer.component';
 import { HomeComponent } from './Components/home/home.component';
 import { SignInOutComponent } from './Components/sign-in-out/sign-in-out.component';
+import { KhamphaComponent } from './Components/khampha/khampha.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SignInOutComponent } from './Components/sign-in-out/sign-in-out.compone
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    SignInOutComponent
+    SignInOutComponent,
+    KhamphaComponent
   ],
   imports: [
     BrowserModule,
