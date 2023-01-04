@@ -98,9 +98,6 @@
   display: none;
 }
 
-
-
-
 .box{
 
   position: relative;
@@ -135,7 +132,6 @@
   height: 100%;
   z-index: 1;
   border-radius: 10px;
-
 }
 
 .box:hover img{
@@ -155,6 +151,7 @@
   color: #56423D;
 
 }
+
 .content1 h1::after{
   position: absolute;
   content: '';
@@ -219,14 +216,14 @@
 
 } */
 
-/* content3  */
+/* content2  */
 
 .slider {
 
-  background: red;
+  background: #F5F5F5;
   color: white;
   /* width: 300px; */
-  height: 300px;
+  height: 220px;
   display: flex;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -243,20 +240,21 @@
 
 
 .slide {
+
+  margin-top: 20px;
+  border-radius: 10px;
   width: 300px;
   flex-shrink: 0;
-
-  height: 100%;
-  margin: 0 20px;
+  padding: 0 20px;
 }
-.slide:first-child {
-  margin-left: 0px ;
-  margin-right: 20px;
+/* .slide:first-child {
+  padding-left: 0px ;
+  padding-right: 20px;
 }
 .slide:last-child {
-  margin-right: 0px ;
-  margin-left: 20px;
-}
+  padding-right: 0px ;
+  padding-left: 20px;
+} */
 
 
 
@@ -264,13 +262,14 @@
   transform: scale(0.8);
 }
 
-.content3 img{
+.content2 img{
   height: 100%;
   width: 100%;
   border-radius: 10px;
 }
 .slide-wrap{
   position: relative;
+
 }
 .nutbam{
   margin-top: 10px;
@@ -280,18 +279,47 @@
   display: flex;
 
 }
-.nutbam a p{
-  padding: 6px;
-  margin: 0 5px;
-  background-color: red;
+
+.content2 h1{
+  position: relative;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  color: #56423D;
+
+}
+.content2 h1::after{
+  position: absolute;
+  content: '';
+  background-color: #BE5F5F;
   height: 2px;
-  border-radius: 30px;
-  border: none;
-    /* width: 10px;
-    height: 10px;
-    background: red;
-    border-radius: 50%;
-    margin: 0 5px;
-    padding: 5px;
-    cursor: pointer; */
+  width: 100px;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.slide:hover img{
+  transform: scale(1.1);
+  opacity: 1;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+
+}
+.slide img{
+  transition: all 0.3s ease-in-out;
+}
+.content3 .anh{
+  position: absolute;
+}
+
+.content3 .slide{
+  position: relative;
+}
+
+
+.nutbam a p{
+  margin: 0px 2px;
+  color: #56423D;
 }
