@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { MainLayoutComponent } from './Components/shared/main-layout/main-layout.component';
 import { SignInOutComponent } from './Components/sign-in-out/sign-in-out.component';
 import { HomeComponent } from './Components/home/home.component';
-
+import { KhamphaComponent } from './Components/khampha/khampha.component';
 
 
 const routes: Routes = [
@@ -17,9 +17,14 @@ const routes: Routes = [
         title: 'Trang chủ'
       },
       {
-        path:'Đăng nhập',
+        path:'sign-in',
         component: SignInOutComponent,
         title:'Đăng nhập'
+      },
+      {
+        path:'khampha',
+        component:KhamphaComponent,
+        title:"Khám phá những review chất lượng"
       },
     ]
   }

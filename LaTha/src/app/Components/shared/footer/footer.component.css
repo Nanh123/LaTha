@@ -1,0 +1,80 @@
+.PC, .MT{
+  background-image: linear-gradient(to bottom right, lightgray, black);
+  position: absolute;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+}
+
+.PC{
+  height: fit-content;
+  width: 100%;
+}
+
+p, span, h1,h2,h3,h4,h5,h6{
+  color: white;
+}
+
+.logo_footer img{
+  width: 60%;
+  height: auto;
+}
+
+.banner h6{
+  color: #9b0000;
+}
+
+.box:hover{
+  border-radius: 10px;
+  border: 1px solid #9b0000;
+  cursor: pointer;
+}
+
+.box{
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.box i{
+  color: white;
+}
+
+.about_us{
+  position: relative;
+}
+
+.box_info{
+  position: absolute;
+  left: 40%;
+}
+
+.box_info .info span:hover{
+  border-bottom: 2px solid #9b0000;
+  color: #9b0000;
+}
+
+.content{
+  text-transform: uppercase;
+}
+
+.follow{
+  position: relative;
+}
+
+.follow .follow_box{
+  position: absolute;
+  left: 40%;
+}
+
+.follow .follow_box i{
+  color: white;
+}
+
+.follow_box .info:hover a{
+  border-bottom: 2px solid red;
+}
+
+.follow_box .info:hover span,
+.follow_box .info:hover i{
+  color: red;
+}

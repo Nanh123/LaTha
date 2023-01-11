@@ -1,0 +1,36 @@
+.LOG
+
+9:56 PM 1/9/2023
+CỐT LÕI VẬN HÀNH
+Tính cá nhân hóa Personalization  Tạo những kiểu ava hoạt hình như fb, tạo thành 
+hình người = full người (Chibi )
+= Con này là người đồng hành đi ăn cùng người dùng = VA = PHÁT TRIỂN CON VA THÀNH 
+NHÀ THAO TÚNG TÂM LÍ
+Chủ động  Giúp người dùng tìm kiếm  = Định hướng người dùng đến các quán ăn được 
+quảng cáo nhiều – thao túng tâm lí 
+UI  UX = Thiết kế thao túng tâm lí người dùng
+Bị động  Latha là người gợi í 
++ Vòng quay  Quán liên kết với mình nhiều = Hiện popup về quán đó = Ưu tiên đối tác 
+liên kết
++ Short Videos   Đưa ra thuật toán gì đấy phân tích hành vi người dùng = Lấy data từ
+các luồng chức năng khác
+	= Mục đích  quảng cáo nhà hàng 
++ Làm thế nào để giữ chân người dùng (Thời gian sử dụng ứng dụng lâu)   Anh chưa 
+biết, đang nghiên cứu
+
+WEB
+Trang chính  Map to đùng 
+Kéo xuống  Hiện thông tin  FB của Latha, các group do Latha phát triển, giới thiệu 
+cái gì đó tính sau
+Túm lại trang chính là cái map bao quát cả màn hình
+- Trang phụ  Khi nhấn vào quán ăn nhất định = hiện thông tin chi tiết về quán ăn.
+
+9:56 PM 1/11/2023
+- Đổi tên facebook thêm hastag 
+- Tìm ra cốt lõi, sự khác biệt đối với các sản phẩm có chức năng tương tự:
++ Trade voucher
++ Hỗ trợ, tương tác người dùng (Tham khảo AI) * Điểm nổi bật - cần pt
++ Share thông tin (Đăng bài, kết bạn (thêm người dùng), chụp ảnh - có thể sẽ có 
+filter)
++ Tính giải trí
++ Share trong nhóm
