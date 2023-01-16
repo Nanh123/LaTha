@@ -1,11 +1,7 @@
 .review{
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   background-color: white;
-}
-
-.PC{
   height: 500px;
-  width: 100%;
 }
 
 a{

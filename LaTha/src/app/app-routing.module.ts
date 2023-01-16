@@ -4,6 +4,7 @@ import { MainLayoutComponent } from './Components/shared/main-layout/main-layout
 import { SignInOutComponent } from './Components/sign-in-out/sign-in-out.component';
 import { HomeComponent } from './Components/home/home.component';
 import { KhamphaComponent } from './Components/khampha/khampha.component';
+import { KhuyenmaiComponent } from './Components/khuyenmai/khuyenmai.component';
 
 
 const routes: Routes = [
@@ -25,6 +26,11 @@ const routes: Routes = [
         path:'khampha',
         component:KhamphaComponent,
         title:"Khám phá những review chất lượng"
+      },
+      {
+        path:'khuyenmai',
+        component:KhuyenmaiComponent,
+        title:"Các chương trình khuyến mãi"
       },
     ]
   }
