@@ -3,22 +3,107 @@
     <div class="row">
       <div class="col-8 review">
         <div class="row">
-          <div class="col-1">
-            <i class="fas fa-user avatar"></i>
+          <div class="col-1 avatar pr-0 mr-4">
+            <i class="fas fa-user fa-3x"></i>
           </div>
           <div class="row">
-            <div class="col pl-0">
+            <div class="col-12 pl-0">
               <a href="">
                 <span class="name">
                   Nguyễn Văn A
                 </span>
               </a>
             </div>
+            <div class="col-12 pl-0 time">
+              <span>2 tháng trước </span>
+              <span>
+                <i class="fas fa-hashtag">
+                  Tag_tên_quán
+                </i>
+              </span>
+              <br><br>
+            </div>
+          </div>
+          <div class="col report">
+            <i class="fas fa-ellipsis-v">
+              <ul class="subnav">
+                <li>
+                  <a href="">
+                    Báo cáo
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Xóa bài
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Chặn người dùng
+                  </a>
+                </li>
+              </ul>
+            </i>
+          </div>
+        </div>
+        <div class="row text">
+          <div class="col-12 noi_dung">
+            <p>Đây sẽ là chỗ để cho người dùng viết bài review</p>
+          </div>
+        </div>
+        <div class="row image">
+          <div class="col-12 anh">
+            <div class="row">
+              <div class="col-6 box_image" *ngFor="let item1 of img">
+                <img [src]="item1.img" [alt]="item1.title" [title]="item1.title">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row ng_dung">
+          <div class="col like">
+            <i class="far fa-thumbs-up chua_like"></i>
+            <span> Thích</span>
+          </div>
+          <div class="col comment">
+            <i class="far fa-comment">
+              <span> Bình luận</span>
+            </i>
+          </div>
+          <div class="col share">
+            <i class="far fa-share-square">
+              <span> Chia sẻ</span>
+            </i>
           </div>
         </div>
       </div>
-      <div class="col-4">
-        na
+      <div class="col recomand">
+        <div class="row">
+          <div class="col-12 content">
+            <h5>Địa điểm nổi bật</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 diadiem" *ngFor="let quan of place">
+            <div class="row pl-3">
+              <div class="col-2">
+                  <a href="">
+                  <img [src]="quan.img" [alt]="quan.name" [title]="quan.name">
+                </a>
+              </div>
+              <div class="col">
+                <a href="">
+                  <span>
+                    {{quan.name}}
+                  </span>
+                  <p>
+                    {{quan.info}}
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
