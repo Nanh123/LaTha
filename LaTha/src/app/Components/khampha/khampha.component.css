@@ -18,6 +18,10 @@ a{
   position: relative;
 }
 
+.review .dang_bai{
+  padding-top: 15px;
+}
+
 .report i{
   position: absolute;
   right: 15px;
@@ -121,10 +125,27 @@ a{
   height: fit-content;
 }
 
+.recomand .content{
+  padding-top: 10px;
+}
+
 .content h5{
   text-align: center;
 }
 
 .recomand a:hover span{
   color: #9b0000;
+}
+
+.recomand .pic{
+  padding-bottom: 10px;
+  margin-left: 15px;
+}
+
+.recomand .name{
+  font-weight: bold;
+}
+
+.in4{
+  margin-left: 5px;
 }

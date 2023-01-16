@@ -1,8 +1,8 @@
 <section class="PC">
-  <div class="container">
+  <div class="container mt-2">
     <div class="row">
       <div class="col-8 review">
-        <div class="row">
+        <div class="row dang_bai">
           <div class="col-1 avatar pr-0 mr-4">
             <i class="fas fa-user fa-3x"></i>
           </div>
@@ -85,15 +85,15 @@
         </div>
         <div class="row">
           <div class="col-12 diadiem" *ngFor="let quan of place">
-            <div class="row pl-3">
-              <div class="col-2">
+            <div class="row">
+              <div class="col-2 pic">
                   <a href="">
                   <img [src]="quan.img" [alt]="quan.name" [title]="quan.name">
                 </a>
               </div>
-              <div class="col">
+              <div class="col in4">
                 <a href="">
-                  <span>
+                  <span class="name">
                     {{quan.name}}
                   </span>
                   <p>
