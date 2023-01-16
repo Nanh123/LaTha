@@ -22,6 +22,10 @@ a{
   padding-top: 15px;
 }
 
+.review .name{
+  font-weight: bold;
+}
+
 .report i{
   position: absolute;
   right: 15px;
@@ -129,8 +133,9 @@ a{
   padding-top: 10px;
 }
 
-.content h5{
+.content h4{
   text-align: center;
+  font-weight: bold;
 }
 
 .recomand a:hover span{
