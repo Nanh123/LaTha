@@ -67,6 +67,7 @@
 
 /* content 1 */
 .content1{
+  margin-top: 130px;
   padding: 40px 0;
 }
 .box img{
@@ -406,6 +407,7 @@
   position: relative;
 }
 .content3 .noidungquan{
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
   width: 91%;
   height: 25%;
   background-color: #fff;
