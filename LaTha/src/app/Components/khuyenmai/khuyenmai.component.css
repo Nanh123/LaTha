@@ -5,6 +5,7 @@
 .content1{
   padding-top: 30px;
   margin-bottom: 30px;
+  padding-left: 20px;
 }
 
 .content1 img{
@@ -129,7 +130,7 @@
   padding-bottom: 20px;
 }
 
-.noidung {
+.content2 .noidung {
   height: 300px;
   width: 300px;
   overflow: hidden;
@@ -169,7 +170,7 @@
 }
 
 
-.day{
+.content2 .day{
   overflow-y: hidden;
   width: 100%;
   height: auto;
@@ -206,12 +207,12 @@
   top: 64%;
   border-radius: 0px 0px 8px 8px;
 }
-.quan{
+.content2 .quan{
   margin: 0px 10px 0px;
 }
 .content2 .noidungquan h4{
   margin: 0px;
-  padding: 10px 0px 5px 10px;
+  padding: 0px 0px 5px 10px;
   font-weight: 600;
   font-size: 20px;
 }
