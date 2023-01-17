@@ -175,6 +175,16 @@
 
 
 
+.content2 .slide:first-child {
+  padding-left: 0px;
+  padding-right: 30px;
+}
+.content2 .slide:first-child {
+  padding-right: 0px;
+  padding-left: 30px;
+}
+
+
 .content2 .slide {
 
   margin-top: 20px;
