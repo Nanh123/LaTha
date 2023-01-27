@@ -2,6 +2,7 @@
 .content1{
   margin-top: 130px;
   padding: 40px 0;
+
 }
 .box img{
   height: 150px;
@@ -176,12 +177,12 @@
 
 
 .content2 .slide:first-child {
-  padding-left: 0px;
-  padding-right: 30px;
+  margin-left: 10px;
+  margin-right: 30px;
 }
-.content2 .slide:first-child {
-  padding-right: 0px;
-  padding-left: 30px;
+.content2 .slide:last-child {
+  margin-right: 30px;
+  margin-right: 10px;
 }
 
 
@@ -191,7 +192,8 @@
   border-radius: 10px;
   width: 350px;
   flex-shrink: 0;
-  padding: 0 30px;
+  margin-right: 30px;g
+  /* padding: 0 30px; */
 }
 
 
