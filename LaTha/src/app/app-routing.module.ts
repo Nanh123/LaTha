@@ -5,6 +5,8 @@ import { SignInOutComponent } from './Components/sign-in-out/sign-in-out.compone
 import { HomeComponent } from './Components/home/home.component';
 import { KhamphaComponent } from './Components/khampha/khampha.component';
 import { KhuyenmaiComponent } from './Components/khuyenmai/khuyenmai.component';
+import { DuyTanComponent } from './Components/duy-tan/duy-tan.component';
+
 
 
 const routes: Routes = [
@@ -31,6 +33,11 @@ const routes: Routes = [
         path:'khuyenmai',
         component:KhuyenmaiComponent,
         title:"Các chương trình khuyến mãi"
+      },
+      {
+        path:'Duytan',
+        component:DuyTanComponent,
+        title:"Ăn tại Duy Tân"
       },
     ]
   }

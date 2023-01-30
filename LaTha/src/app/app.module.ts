@@ -10,6 +10,7 @@ import { HomeComponent } from './Components/home/home.component';
 import { SignInOutComponent } from './Components/sign-in-out/sign-in-out.component';
 import { KhamphaComponent } from './Components/khampha/khampha.component';
 import { KhuyenmaiComponent } from './Components/khuyenmai/khuyenmai.component';
+import { DuyTanComponent } from './Components/duy-tan/duy-tan.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { KhuyenmaiComponent } from './Components/khuyenmai/khuyenmai.component';
     HomeComponent,
     SignInOutComponent,
     KhamphaComponent,
-    KhuyenmaiComponent
+    KhuyenmaiComponent,
+    DuyTanComponent
   ],
   imports: [
     BrowserModule,
