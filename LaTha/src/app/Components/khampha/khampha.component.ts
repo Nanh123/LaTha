@@ -20,7 +20,7 @@ export class KhamphaComponent {
       title:"Bít tết",
     },
     {
-      img:"https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/320656349_1331059731059731_2520965587771174965_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=jpCKquNXq08AX9lGva5&_nc_oc=AQnLbnWE4nh2DK5gQIIjnWnq9LVpcj1cw1a73dy1T0-1H6PH-JJGNWyZFzwz81mJXJY&_nc_ht=scontent.fhan17-1.fna&oh=00_AfAUBX8tOhCjgevcJ_gJU31pdzDqqaZTTnOo6aotrAa13w&oe=63CA3B6B",
+      img:"https://images.foody.vn/res/g5/45973/prof/s576x330/foody-mobile-21106504_13834312151-202-636421187073256169.jpg",
       title:"Bánh mì ô long",
     },
   ];
