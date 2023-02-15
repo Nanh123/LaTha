@@ -17,7 +17,7 @@ const routes: Routes = [
       {
         path:'',
         component: HomeComponent,
-        title: 'Trang chủ'
+        title: 'Lang Thang cùng LaTha'
       },
       {
         path:'sign-in',
