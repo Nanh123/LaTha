@@ -114,6 +114,9 @@ a{
 .ng_dung .like:hover{
   color: white;
   background-color: #9b0000;
+}
+
+.ng_dung .like:hover{
   border-bottom-left-radius: 10px;
 }
 
