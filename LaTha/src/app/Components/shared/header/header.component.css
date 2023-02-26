@@ -54,27 +54,29 @@ a:hover p{
   height: 50px;
   border-radius: 20px;
 }
+
+.bg-search .col-1,
+.bg-search .col{
+  height: 50px;
+}
+
 .header-left .search-header{
   position: relative;
 }
 
 .header-left .search-header i{
   position: absolute;
-  top: 22%;
+  top: 40%;
   left: 75%;
 }
 
 .header-left .search-header input{
   position: absolute;
-  top: 15%;
+  top: 25%;
   background-color: lightgray;
   border: 0;
   outline: 0;
   width: 130px;
-}
-
-.header-right .btn{
-  position: relative;
 }
 
 .header-right button:first-child{
