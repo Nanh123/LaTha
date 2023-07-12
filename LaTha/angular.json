@@ -31,8 +31,8 @@
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.js",
-              "src/assets/bootstrap-4.6.2-dist/bootstrap-4.6.2-dist/js/bootstrap.min.js",
-              "src/assets/bootstrap-4.6.2-dist/bootstrap-4.6.2-dist/js/bootstrap.js",
+              "src/assets/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js",
+              "src/assets/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.js",
               "src/assets/fontawesome-free-5.15.4-web/js/all.js"
             ]
           },
