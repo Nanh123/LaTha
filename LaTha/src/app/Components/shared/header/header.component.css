@@ -133,7 +133,7 @@
 .header-MB .search{
   position: relative;
   bottom: 70px;
-  left: 27%;
+  left: 25%;
   width: fit-content;
 }
 
@@ -164,7 +164,7 @@
 .header-MB .menu{
   position: relative;
   width: fit-content;
-  left: 40%;
+  left: 35%;
   bottom: 70px;
 }
 
