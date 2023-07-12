@@ -7,7 +7,6 @@ import { MainLayoutComponent } from './Components/shared/main-layout/main-layout
 import { HeaderComponent } from './Components/shared/header/header.component';
 import { FooterComponent } from './Components/shared/footer/footer.component';
 import { HomeComponent } from './Components/home/home.component';
-import { SignInOutComponent } from './Components/sign-in-out/sign-in-out.component';
 import { KhamphaComponent } from './Components/khampha/khampha.component';
 import { KhuyenmaiComponent } from './Components/khuyenmai/khuyenmai.component';
 import { DuyTanComponent } from './Components/duy-tan/duy-tan.component';
@@ -19,7 +18,6 @@ import { DuyTanComponent } from './Components/duy-tan/duy-tan.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    SignInOutComponent,
     KhamphaComponent,
     KhuyenmaiComponent,
     DuyTanComponent

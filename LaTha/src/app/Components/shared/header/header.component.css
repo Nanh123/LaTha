@@ -1,5 +1,6 @@
-.header{
-  height: 85px;
+/* PC */
+.header-PC{
+  height: 120px;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -7,100 +8,182 @@
   z-index: 999;
 }
 
-.logo{
+.header-PC .nav{
+  padding: 0px;
+  height: 90px;
+  margin-top: 0px;
+}
+
+.header-PC li{
+  width: 100px;
+  text-align: center;
+}
+
+.header-PC .nav li{
+  display: inline-block;
+}
+
+.header-PC .logo{
   position: relative;
+  left: 12px;
 }
 
-.logo img{
-  position: absolute;
-  top: 10%;
+.header-PC .logo{
+  width: 100px;
+  height: 100px;
 }
 
-.header .logo,
-.header .col{
-  height: 80px;
-}
-
-a:hover,
-a{
-  color: black;
-  text-decoration: none;
-}
-
-a:hover p{
-  color: darkred;
-}
-
-.logo img{
-  height: 100%;
-  width: auto;
-}
-
-.header-left .text{
+.header-PC .nav .search{
   position: relative;
+  left: 330px;
+  bottom: 85px;
+  width: fit-content;
 }
 
-.header-left .text p{
-  position: absolute;
-  top: 35%;
-  font-size: 20px;
-}
-
-.header-left .bg-search{
-  background-color: lightgray;
-  position: absolute;
-  top: 25%;
-  width: 170px;
+.header-PC .input-box{
   height: 50px;
+  width: 10px;
+}
+
+.header-PC ul .bg-search{
+  background-color: lightgray;
+  border-radius: 20px;
+  position: relative;
+  margin: 0px;
+  width: 400px;
+}
+
+.header-PC .input-box input{
+  position: relative;
+  top: 15px;
+  right: 2px;
+  border: 0px solid;
+  background-color: lightgray;
+  border-radius: 20px;
+  outline: 0;
+}
+
+.header-PC .icon svg{
+  position: relative;
+  top: 15px;
+  left: 5px;
+}
+
+.header-PC .nav .btn{
+  position: relative;
+  left: 100px;
+  bottom: 70px;
+}
+
+.header-PC .btn>a{
+  text-align: center;
+  line-height: 60px;
+  color: black;
+
+}
+
+.btn:hover{
+  background-color: #9b0000;
+  cursor: pointer;
+}
+
+.nav .btn:hover a{
+  color: white;
+  background-color: #9b0000;
+  cursor: pointer;
+}
+
+.header-PC .nav .btn{
+  position: relative;
+  left: 510px;
+}
+
+.header-PC .btn{
+  border: 2px solid;
   border-radius: 20px;
 }
 
-.bg-search .col-1,
-.bg-search .col{
-  height: 50px;
+/* Mobile */
+.header-MB{
+  height: 100px;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 999;
 }
 
-.header-left .search-header{
+.header-MB .nav{
+  width: 100%;
+  padding: 0px;
+}
+
+.header-MB li{
+  width: fit-content;
+  margin: 0px;
+  display: inline-block;
+}
+
+.header-MB .logo{
   position: relative;
+  bottom: 10px;
 }
 
-.header-left .search-header i{
-  position: absolute;
-  top: 40%;
-  left: 75%;
+.header-MB .search{
+  position: relative;
+  bottom: 75px;
+  left: 17%;
+  width: fit-content;
 }
 
-.header-left .search-header input{
-  position: absolute;
-  top: 25%;
+.header-MB .bg-search{
   background-color: lightgray;
-  border: 0;
+  border-radius: 20px;
+  position: relative;
+  margin: 0px;
+  width: fit-content;
+}
+
+.header-MB input{
+  position: relative;
+  left: 10px;
+  border: 0px solid;
+  background-color: lightgray;
+  border-radius: 20px;
   outline: 0;
-  width: 130px;
-}
-
-.header-right button:first-child{
-  position: absolute;
-  left: 20px;
-}
-
-.header-right .btn button{
-  position: absolute;
-  top: 17%;
-}
-
-.header-right button{
-  border-radius: 30px;
   height: 50px;
-  width: 130px;
 }
 
-.header-right button:hover{
-  background-color: #9b0000;
-  border-color: white;
+.header-MB svg{
+  position: relative;
+  top: 15px;
+  left: 5px;
 }
 
-.header-right button:hover i,
-.header-right button:hover span{
-  color: white;
+.header-MB .menu{
+  position: relative;
+  width: fit-content;
+  left: 215px;
+  bottom: 75px;
+}
+
+.header-MB .menu:focus .subnav{
+  display: block;
+}
+
+.header-MB .nav .subnav{
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header-PC{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .header-MB{
+    display: none;
+  }
 }
