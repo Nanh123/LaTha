@@ -115,7 +115,7 @@
 }
 
 .header-MB .nav{
-  width: 100%;
+  width: 90%;
   padding: 0px;
 }
 
@@ -126,8 +126,7 @@
 }
 
 .header-MB .nav .logo{
-  position: relative;
-  top: 0px;
+  width: fit-content;
 }
 
 .header-MB .search{
