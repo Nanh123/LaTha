@@ -1,4 +1,4 @@
-.PC, .MT{
+.PC{
   background-color: #9b0000;
   position: absolute;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -34,7 +34,7 @@ p, span, h1,h2,h3,h4,h5,h6{
   cursor: pointer;
 }
 
-.box i{
+.box svg{
   color: white;
 }
 
@@ -65,7 +65,7 @@ p, span, h1,h2,h3,h4,h5,h6{
   left: 40%;
 }
 
-.follow .follow_box i{
+.follow .follow_box svg{
   color: white;
 }
 
@@ -74,6 +74,18 @@ p, span, h1,h2,h3,h4,h5,h6{
 }
 
 .follow_box .info:hover span,
-.follow_box .info:hover i{
+.follow_box .info:hover svg{
   color: black;
+}
+
+@media only screen and (max-width: 1024px) {
+  .PC{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .header-MB{
+    display: none;
+  }
 }
